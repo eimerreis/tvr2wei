@@ -1,0 +1,57 @@
+<!Doctype html>
+<html ng-app="App">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+  <title> Sag was zu den Herren 2wei </title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/chat.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <img style="height: 120px; float: left;"src="data/img/TV_Rottenburg_Wappen.svg.png" />
+      <h1 style="width: 100%; text-align: center;">Sag was zu den Rangers</h1>
+    </div>
+    <div class="well">
+      <p align="center"> Sende den Rangers eine Nachricht direkt auf die Videowand - gib einfach deinen Namen und deine Nachricht ein! </p>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="input-group">
+          <span class="input-group-addon" id="username-addon">Name</span>
+          <input type="text" class="form-control username" aria-describedby="username-addon" />
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="input-group">
+          <input type="text" class="form-control message" placeholder="Nachricht.." />
+          <span class="input-group-btn">
+            <button class="btn btn-default send-button" type="button">Senden!</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/remote.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    $('.send-button').click(function(){
+      var username = $('input.username').val(),
+          message = $('input.message').val();
+      if(username != "" && message != "")
+      {
+        var data = {"username": username, "message": message};
+        socket.emit('message-sended', data);
+      }
+
+    });
+  </script>
+</body>
+
+</html>

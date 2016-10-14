@@ -1,0 +1,4 @@
+ToDo TVR 2wei App für Videowand
+
+- Ng-Repeat mit Bedinung für Player.Playing bei Spieler Slider
+- 2-Way-Binding von Remote zu Player.Playing ==> aktualisiert sich ein 2way Binding auf ein .JSON File asynchron??

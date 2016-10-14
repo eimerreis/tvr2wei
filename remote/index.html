@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1">
+  <meta charset="utf-8">
+  <title> H2 Administration </title>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script src="semantic/dist/semantic.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/remote.css" />
+</head>
+
+<body ng-app="2weiRemote">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 ng-controller="SlideController">{{::title}}</h1>
+      <p> Klicke auf den Button der Folie, die angezeigt werden soll </p>
+    </div>
+    <div class="well"><h1> Folie auswählen </h1>
+      <div class="row">
+        <div class="col-sm-4"><button data-folie="1"> TVR Aufstellung </button></div>
+        <div class="col-sm-4"><button data-folie="2"> Gäste Aufstellung </button></div>
+        <div class="col-sm-4"><button data-folie="3"> Tabelle 3. Liga </button></div>
+        <div class="col-sm-4"><button data-folie="4"> Spieler einzeln </button></div>
+        <div class="col-sm-4"><button data-folie="5"> Team 2015/2016 </button></div>
+        <div class="col-sm-4"><button data-folie="6"> Merchandise </button></div>
+        <div class="col-sm-4"><button data-folie="7"> Publikums-Chat </button></div>
+        <div class="col-sm-4"><button data-folie="8"> Chat Erklärung </button></div>
+        <div class="col-sm-4"><button data-folie="10"> Live Video </button></div>
+      </div>
+    </div>
+    <div ng-controller="TeamController" ng-init="getTeam()" class="well"><h1> Spieler aufstellen </h1>
+      <table class="table table-striped player-table">
+        <thead>
+          <tr>
+            <th>in Aufstellung</th>
+            <th>Nr.</th>
+            <th>Name</th>
+            <th>Position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="player in team | orderBy:'+number'">
+            <td><input ng-change="savePlayers()" ng-model="player.active" ng-checked='player.active == "true"' type="checkbox"/></td>
+            <td>{{player.number}}</td>
+            <td>{{player.name}}</td>
+            <td>{{player.position}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="libs/jquery/jquery-2.1.4.min.js"></script>
+  <script src="scripts/remote.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <script src="js/angular.js"></script>
+  <script src="js/angular-resource.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script>
+    var socket = io();
+    $('button').click(function(){
+      socket.emit('change-slide', $(this).data("folie"));
+    });
+
+    $(document).on("change", "input[type='checkbox']", function(){
+      selectedPlayers = [];
+      view.getSelectedPlayers();
+      socket.emit('players-changed', selectedPlayers);
+    })
+
+
+    socket.on('get-selectedPlayers', function(){
+      view.getSelectedPlayers();
+      socket.emit('players-changed', selectedPlayers);
+    });
+  </script>
+</body>
+
+</html>

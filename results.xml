@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matches xmlns="http://sams-server.de/api/xml/ns/matches" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sams-server.de/api/xml/ns/matches matches.xsd">
+                <match>
+                    <id>9378594</id>
+                    <number>6005</number>
+                    <date>03.10.2015</date>
+                    <time>19:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240941</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>USC Konstanz</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>USC Konstanz</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:0</setPoints>
+                            <ballPoints>75:62</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:20</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>24</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>25:19</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>23</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>25:23</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>24</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>101</spectators>
+                        <netDuration>71</netDuration>
+                </match>
+                <match>
+                    <id>9378775</id>
+                    <number>6090</number>
+                    <date>10.10.2015</date>
+                    <time>20:00</time>
+                    <delayPossible>true</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240949</id>
+                        <name>TG Rüsselsheim II</name>
+                        <club>TG Rüsselsheim</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240949</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TG Rüsselsheim II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TG Rüsselsheim</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>39839</id>
+                            <name>Gustav-Heinemann-Schule</name>
+                            <street>Königstädter Str. 82</street>
+                            <postalCode>65428</postalCode>
+                            <city>Rüsselsheim</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:1</setPoints>
+                            <ballPoints>98:75</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>23:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>22</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>25:13</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>20</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>25:21</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>23</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>25:16</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>20</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>80</spectators>
+                        <netDuration>85</netDuration>
+                </match>
+                <match>
+                    <id>9378597</id>
+                    <number>6008</number>
+                    <date>17.10.2015</date>
+                    <time>20:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9241520</id>
+                        <name>LAF Sinzig</name>
+                        <club>LAF Sinzig</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9241520</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>LAF Sinzig</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>LAF Sinzig</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>32813</id>
+                            <name>Rhein-Ahr-Sporthalle B (Schulzentrum)</name>
+                            <street>Jahnsstrasse</street>
+                            <postalCode>53489</postalCode>
+                            <city>Sinzig</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:2</setPoints>
+                            <ballPoints>101:100</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:19</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>14:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>25:19</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>22:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>5</number>
+                                            <points>15:12</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>100</spectators>
+                        <netDuration>-</netDuration>
+                </match>
+                <match>
+                    <id>9378614</id>
+                    <number>6015</number>
+                    <date>24.10.2015</date>
+                    <time>19:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9241586</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Waldgirmes</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Waldgirmes</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>2</winner>
+                            <setPoints>0:3</setPoints>
+                            <ballPoints>62:75</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>23:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>28</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>19:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>24</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>20:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>21</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>53</spectators>
+                        <netDuration>73</netDuration>
+                </match>
+                <match>
+                    <id>9378627</id>
+                    <number>6016</number>
+                    <date>31.10.2015</date>
+                    <time>19:30</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9241575</id>
+                        <name>VfB Friedrichshafen II</name>
+                        <club>VfB Friedrichshafen</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9241575</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>VfB Friedrichshafen II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>VfB Friedrichshafen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>33226</id>
+                            <name>ZF Arena 1</name>
+                            <street>Meistershofener Str. 25</street>
+                            <postalCode>88045</postalCode>
+                            <city>Friedrichshafen</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:2</setPoints>
+                            <ballPoints>111:99</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:16</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>19:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>25:18</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>27:29</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>-</duration>
+                                        </set>
+                                        <set>
+                                            <number>5</number>
+                                            <points>15:11</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>-</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>80</spectators>
+                        <netDuration>-</netDuration>
+                </match>
+                <match>
+                    <id>9378636</id>
+                    <number>6025</number>
+                    <date>07.11.2015</date>
+                    <time>19:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240891</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TuS Kriftel</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TuS Kriftel</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>2</winner>
+                            <setPoints>1:3</setPoints>
+                            <ballPoints>73:94</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:19</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>25</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>20:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>24</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>9:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>16</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>19:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>19</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>98</spectators>
+                        <netDuration>84</netDuration>
+                </match>
+                <match>
+                    <id>9378641</id>
+                    <number>6029</number>
+                    <date>14.11.2015</date>
+                    <time>20:00</time>
+                    <delayPossible>true</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9241569</id>
+                        <name>SSC Karlsruhe</name>
+                        <club>SSC Karlsruhe</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9241569</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>SSC Karlsruhe</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>SSC Karlsruhe</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>108947</id>
+                            <name>Otto-Hahn-Gymnasium</name>
+                            <street>Ecke Glogauer Str./Kösliner Str.</street>
+                            <postalCode>76139</postalCode>
+                            <city>Karlsruhe</city>
+                            <note>Autobahn A5, Ausfahrt Richtung Karlsruhe, auf Durlacher Allee an Mann Mobilia vorbei, nächste Kreuzung direkt hinter Zugüberführung(EnBW-Gebäude, Ostring) rechts Richtung Waldstadt,  nach ca. 1,5 km(ARAL-Tankstelle auf linker Seite) rechts abbiegen(Haid- und Neustr.), nach weiteren 1,5 km(rechts TOTAL-Tankstelle) links abbiegen(Am Sportpark), Rechtskurve beim SSC-Vereinszentrum folgen(Glogauer Str.), nach kreuzenden Straßenbahnschienen und weiteren 300 m liegt rechts die Halle, einige Parkplätze rechts um die Ecke(Kösliner Str.)</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:1</setPoints>
+                            <ballPoints>99:87</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:23</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>24</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>25:18</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>21</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>24:26</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>26</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>25:20</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>23</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>200</spectators>
+                        <netDuration>94</netDuration>
+                </match>
+                <match>
+                    <id>9378656</id>
+                    <number>6035</number>
+                    <date>22.11.2015</date>
+                    <time>16:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240918</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Bliesen</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Bliesen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>2</winner>
+                            <setPoints>0:3</setPoints>
+                            <ballPoints>58:75</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>15:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>15</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>21:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>23</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>22:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>22</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>92</spectators>
+                        <netDuration>60</netDuration>
+                </match>
+                <match>
+                    <id>9378667</id>
+                    <number>6037</number>
+                    <date>29.11.2015</date>
+                    <time>16:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9241576</id>
+                        <name>TSV Mimmenhausen</name>
+                        <club>TSV Mimmenhausen</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9241576</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TSV Mimmenhausen</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TSV Mimmenhausen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>33142</id>
+                            <name>Bildungszentrum</name>
+                            <street>Schlosseeallee 45</street>
+                            <postalCode>88682</postalCode>
+                            <city>Salem</city>
+                            <note>Anzahl Spielfelder 3 - Zulassung bis VL - Zulassung am 38230 - Ausnahme</note>
+                    </location>
+                    <referees>
+                    </referees>
+                        <results>
+                            <winner>1</winner>
+                            <setPoints>3:1</setPoints>
+                            <ballPoints>94:87</ballPoints>
+                            <sets>
+                                        <set>
+                                            <number>1</number>
+                                            <points>25:20</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>24</duration>
+                                        </set>
+                                        <set>
+                                            <number>2</number>
+                                            <points>19:25</points>
+                                            <winner>TEAM2</winner>
+                                            <duration>19</duration>
+                                        </set>
+                                        <set>
+                                            <number>3</number>
+                                            <points>25:21</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>25</duration>
+                                        </set>
+                                        <set>
+                                            <number>4</number>
+                                            <points>25:21</points>
+                                            <winner>TEAM1</winner>
+                                            <duration>22</duration>
+                                        </set>
+                            </sets>
+                            <verified>true</verified>
+                        </results>
+                        <spectators>170</spectators>
+                        <netDuration>90</netDuration>
+                </match>
+                <match>
+                    <id>9378691</id>
+                    <number>6050</number>
+                    <date>09.01.2016</date>
+                    <time>19:30</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240941</id>
+                        <name>USC Konstanz</name>
+                        <club>USC Konstanz</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240941</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>USC Konstanz</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>USC Konstanz</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>33245</id>
+                            <name>Schänzlehalle</name>
+                            <street>Winterer Steig 23</street>
+                            <postalCode>78462</postalCode>
+                            <city>Konstanz</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378704</id>
+                    <number>6053</number>
+                    <date>16.01.2016</date>
+                    <time>19:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9241520</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>LAF Sinzig</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>LAF Sinzig</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378711</id>
+                    <number>6060</number>
+                    <date>23.01.2016</date>
+                    <time>16:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9241586</id>
+                        <name>TV Waldgirmes</name>
+                        <club>TV Waldgirmes</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9241586</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Waldgirmes</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Waldgirmes</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>31300</id>
+                            <name>Sporthalle Lahntalschule Atzbach</name>
+                            <street>Sudetenstraße 9</street>
+                            <postalCode>35633 </postalCode>
+                            <city>Lahnau</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378724</id>
+                    <number>6061</number>
+                    <date>30.01.2016</date>
+                    <time>19:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9241575</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>VfB Friedrichshafen II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>VfB Friedrichshafen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378735</id>
+                    <number>6070</number>
+                    <date>13.02.2016</date>
+                    <time>20:00</time>
+                    <delayPossible>true</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240891</id>
+                        <name>TuS Kriftel</name>
+                        <club>TuS Kriftel</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240891</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TuS Kriftel</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TuS Kriftel</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>39835</id>
+                            <name>Sporthalle Weingartenschule</name>
+                            <street>Staufenstraße 14</street>
+                            <postalCode>65830</postalCode>
+                            <city>Kriftel</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378746</id>
+                    <number>6074</number>
+                    <date>21.02.2016</date>
+                    <time>16:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9241569</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>SSC Karlsruhe</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>SSC Karlsruhe</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378755</id>
+                    <number>6080</number>
+                    <date>27.02.2016</date>
+                    <time>20:00</time>
+                    <delayPossible>true</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240918</id>
+                        <name>TV Bliesen</name>
+                        <club>TV Bliesen</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240918</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Bliesen</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Bliesen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>32941</id>
+                            <name>Sportzentrum St. Wendel</name>
+                            <street>Am Sportzentrum</street>
+                            <postalCode>66606</postalCode>
+                            <city>St. Wendel</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378764</id>
+                    <number>6082</number>
+                    <date>06.03.2016</date>
+                    <time>16:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9241576</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TSV Mimmenhausen</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TSV Mimmenhausen</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+                <match>
+                    <id>9378676</id>
+                    <number>6045</number>
+                    <date>19.03.2016</date>
+                    <time>20:00</time>
+                    <delayPossible>false</delayPossible>
+                    <decidingMatch>false</decidingMatch>
+                    <indefinitelyRescheduled>false</indefinitelyRescheduled>
+                    <host>
+                        <id>9240925</id>
+                        <name>TV Rottenburg II</name>
+                        <club>TV Rottenburg</club>
+                    </host>
+                    <team>
+                        <number>1</number>
+                        <id>9240925</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TV Rottenburg II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TV Rottenburg</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <team>
+                        <number>2</number>
+                        <id>9240949</id>
+                        <seasonTeamId></seasonTeamId>
+                        <name>TG Rüsselsheim II</name>
+                        <shortName></shortName>
+                        <clubCode></clubCode>
+                        <club>
+                            <name>TG Rüsselsheim</name>
+                            <shortName></shortName>
+                        </club>
+                    </team>
+                    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+                    </matchSeries>
+                    <location>
+                            <id>4509008</id>
+                            <name>Volksbankarena</name>
+                            <street>Jahnstrasse 35</street>
+                            <postalCode>72108</postalCode>
+                            <city>Rottenburg</city>
+                            <note>-</note>
+                    </location>
+                    <referees>
+                    </referees>
+                </match>
+        </matches>

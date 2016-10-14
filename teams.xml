@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teams xmlns="http://sams-server.de/api/xml/ns/teams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sams-server.de/api/xml/ns/teams teams.xsd">
+                <team>
+    <id>9241520</id>
+    <seasonTeamId></seasonTeamId>
+    <name>LAF Sinzig</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>LAF Sinzig</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://www.laf-sinzig.de</www>
+        <wwwDepartment></wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9241569</id>
+    <seasonTeamId></seasonTeamId>
+    <name>SSC Karlsruhe</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url>https://dvv.sams-server.de/uploads/b1b4cde0-0241-4c03-b7d6-246720e5cea2/Logo+SSC+Karlsruhe+gelb-rot.jpg</url>
+    </logo>
+    <club>
+        <name>SSC Karlsruhe</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://www.ssc-karlsruhe.de</www>
+        <wwwDepartment></wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9240949</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TG Rüsselsheim II</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TG Rüsselsheim</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://www.tg-ruesselsheim.de</www>
+        <wwwDepartment>http://www.tg-volleyball.de</wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9241576</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TSV Mimmenhausen</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TSV Mimmenhausen</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://www.tsv-mimmenhausen-volleyball.de</www>
+        <wwwDepartment></wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9240918</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TV Bliesen</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TV Bliesen</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www></www>
+        <wwwDepartment>http://www.tvbliesen-volleyball.de</wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9240925</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TV Rottenburg II</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TV Rottenburg</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://tv-rottenburg.de</www>
+        <wwwDepartment>http://volleyball-rottenburg.de</wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9241586</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TV Waldgirmes</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TV Waldgirmes</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://tv-waldgirmes.de</www>
+        <wwwDepartment>http://tv-waldgirmes.de</wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9240891</id>
+    <seasonTeamId></seasonTeamId>
+    <name>TuS Kriftel</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>TuS Kriftel</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www>http://tus-kriftel.de</www>
+        <wwwDepartment>http://tus-kriftel-volleyball.de</wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9240941</id>
+    <seasonTeamId></seasonTeamId>
+    <name>USC Konstanz</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>USC Konstanz</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www></www>
+        <wwwDepartment></wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+                <team>
+    <id>9241575</id>
+    <seasonTeamId></seasonTeamId>
+    <name>VfB Friedrichshafen II</name>
+    <shortName></shortName>
+    <clubCode></clubCode>
+    <status>ACTIVE</status>
+    <logo>
+        <url></url>
+    </logo>
+    <club>
+        <name>VfB Friedrichshafen</name>
+        <shortName></shortName>
+        <logo>
+            <url></url>
+        </logo>
+        <www></www>
+        <wwwDepartment></wwwDepartment>
+    </club>
+    <matchSeries>
+    <id>9240887</id>
+    <name>Dritte Liga Süd Männer</name>
+    <shortName>DLS M</shortName>
+    <type>League</type>
+        <updated>2015-12-15 16:44:24.960865</updated>
+        <structureUpdated>2015-10-08 16:33:59.991</structureUpdated>
+        <resultsUpdated>2015-12-15 16:44:24.960865</resultsUpdated>
+        <season>
+            <id>9240440</id>
+            <name>2015/2016</name>
+        </season>
+        <hierarchy>
+            <name>Dritte Liga Süd</name>
+            <shortName>DLS</shortName>
+        </hierarchy>
+        <association>
+            <name>Dritte Liga Süd</name>
+            <shortName>DL S</shortName>
+        </association>
+    </matchSeries>
+                </team>
+        </teams>

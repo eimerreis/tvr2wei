@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('data/font/Lobster_1.3.otf');
+}
+
+
+body {
+  overflow: auto;
+  background-color: #fff;
+  transition: background-color 100ms ease;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Lato' sans-serif;
+}
+
+.pt-perspective {
+  width: 100%;
+  height: 100%;
+  perspective: 1200px;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform-style: preserve-3d;
+}
+
+.pt-page {
+  visibility: hidden;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pt-player-page {
+  font-size: 15pt;
+}
+
+.pt-page-current {
+  visibility: visible;
+}
+
+.pt-page h1 {
+  text-transform: uppercase;
+  color: black;
+  width: auto;
+  font-size: 3.8em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.pt-page-content {
+  vertical-align: middle;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.pt-page h1 strong {
+  color: #fd6a62;
+}
+
+.player-portfolio {
+  opacity: 1;
+ /*  transform: translateX(-120%); */
+}
+
+.player-ontop {
+  z-index: 999;
+}
+/* Styling für 3. Liga Tabelle */
+table {
+  font-size: 16pt;
+}
+
+.table-striped > tbody > tr:nth-child(odd){
+  background: rgba(0,0,0,0.07);
+}
+
+.table-striped > tbody > tr > td {
+  border: none;
+}
+
+.table > thead > tr > th {
+  border-color: #FFC3C3;
+}
+
+.h2wei-table {
+}
+
+.h2wei-table tobdy tr:first {
+  text-align: center;
+}
+
+.h2wei-table tbody tr:nth-child(2){
+  width: 100%;
+}
+
+/** Message Bubble */
+.bubble
+{
+box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.3);
+position: relative;
+width: 70%;
+  float: left;
+padding-left: 15px;
+padding-right: 10px;
+padding-bottom:  10px;
+padding-top: 10px;
+height: auto;
+/* min-height: 200px; */
+margin: 0 auto;
+display: inline-block;
+font-size: 35pt;
+text-align: left;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #fd6a62 solid 6px;
+  margin-left: 30px;
+}
+
+.bubble:after
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -15px;
+  top: 27px;
+}
+
+.bubble:before
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 19px 19px 19px 0;
+  border-color: transparent #fd6a62;
+  display: block;
+  width: 0;
+  z-index: 0;
+  left: -24px;
+  top: 23px;
+}
+
+.bubble span {
+  display: inline-block;
+  width: 100%;
+  vertical-align:middle;
+  /* height: 100px; */
+}
+
+.messages {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 31%;
+  /* transform: scale(0.3); */
+}
+
+.message-username {
+  font-size: 37pt;
+  font-style: italic;
+  font-weight: 900;
+  font-family: 'Ubuntu';
+  float: left;
+  /*text-transform: uppercase;*/
+  color: black;
+  margin-top: 10px;
+}
+
+.message {
+  position: fixed;
+  top: 190px;
+  width: 85%;
+  left: 6%;
+  transform: scale(2.5) translateX(-150%);
+  /* transform: translateX(-155%); */
+}
+
+.message.active-message {
+  animation: showMessage ease 0.9s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: scale(1.5);
+}
+
+.hide-message {
+  /*animation: hideMessage ease 0.9s;
+  animation-iteration-count: 1;
+  -webkit-animation: hideMessage ease 0.9s;
+  animation-fill-mode: forwards;*/
+  transform: scale(1) translateX(0);
+}
+
+.chat-explain-list li {
+  font-size: 35pt;
+}
+
+/* Styling für Spieler-Eigenschafts-Tabelle */
+.player-detail table {
+  width: 500px;
+  font-size: 24pt;
+  position: absolute;
+  right: 10px;
+  top: 90px;
+  table-layout: fixed;
+}
+
+.player-image {
+  margin-top: 75px;
+}
+
+
+strong.ranger-name {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+span.player-head {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.player-detail img {
+  box-shadow: inset 0 0 10px solid #fff;
+}
+
+.player-picture {
+  box-shadow: 5px 6px 23px -5px;
+}
+
+/* Styling für Merchandise-Page */
+.pt-page-6 img {
+  border: 10px solid #fff;
+}
+
+/* Style-Klassen für Animationen */
+.pt-page-scaleDown {
+  animation: scaleDown .7s ease both;
+}
+
+.pt-page-ontop {
+  z-index: 999;
+}
+
+.pt-page-moveFromTop {
+	-webkit-animation: moveFromTop .6s ease both;
+	animation: moveFromTop .6s ease both;
+}
+
+.pt-page-fade {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+.pt-page-moveFromTopFade {
+	-webkit-animation: moveFromTopFade .7s ease both;
+	animation: moveFromTopFade .7s ease both;
+}
+
+/* Styles für die einzelnen Folien */
+.pt-page-1 {
+  /*background-color: #fd6a62;*/
+}
+
+.pt-page-2 {
+  /*background-color: #688fdd;*/
+}
+
+
+/* Animationen */
+@keyframes scaleDown {
+  to { opacity: 0; transform: scale(.8); }
+}
+
+/* Fade from Top */
+@-webkit-keyframes moveFromTopFade {
+	from { opacity: 0.3; -webkit-transform: translateY(-100%); }
+}
+@keyframes moveFromTopFade {
+	from { opacity: 0.3; -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+}
+
+@-webkit-keyframes moveRight {
+  from { opacity: 0.3; -webkit-transform: translateX(120%); transform: translateX(120%); }
+}
+
+@keyframes moveRight {
+  from { opacity: 0.3; -webkit-transform: translateX(120%); transform: translateX(120%); }
+}
+
+@-webkit-keyframes slideIn {
+  from { opacity: 0.3; -webkit-transform: translateX(0%); transform: translateX(0%); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0.3; -webkit-transform: translateX(0%); transform: translateX(0%); }
+}
+
+@keyframes hideMessage {
+  /*0% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translate(0px, 100px);
+  }*/
+}
+
+@keyframes showMessage {
+  0% {
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

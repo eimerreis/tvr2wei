@@ -1,0 +1,379 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> TVRottenburg Herren 2wei - Heimspiel </title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link href='css/lato.css' rel='stylesheet' type='text/css'>
+  <link href='css/ubuntu.css' rel='stylesheet' type='text/css'>
+  <link href="css/slick.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="css/minimalist.css" />
+</head>
+
+<body ng-app="2weiGewinnt">
+
+  <div class="container">
+
+    <div class="pt-perspective">
+
+        <!-- Page 1: Aufstellung TVR -->
+        <div ng-controller="TeamController" data-background="688fdd" class="pt-page pt-page-1">
+          <div class="pt-page-content">
+          <h1><strong>TVR</strong> Die 2weite</h1>
+              <div class="row">
+                <table class="table table-striped h2wei-table">
+                  <thead>
+                    <tr>
+                      <th>Nummer</th>
+                      <th>Name</th>
+                      <th>Position</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr ng-repeat="player in team | filter: { active: 'true'}">
+                    <td>{{player.number}}</td>
+                    <td>{{player.name}}</td>
+                    <td>{{player.position}}</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+         </div>
+       
+
+        <!-- Page 2: Aufstellung Gäste -->
+        <div  data-background="688fdd" class="pt-page pt-page-2">
+          <div class="pt-page-content">
+              <h1><strong>TuS</strong> Kriftel</h1>
+              <div class="row">
+                <table class="table table-striped guest-table">
+                  <thead>
+                    <tr>
+                      <th>Nummer</th>
+                      <th>Name</th>
+                      <th>Position</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Dimitri Friedrich</td>
+                      <td>Zuspiel</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>David Maulat</td>
+                      <td>Mittelblock</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Lukas Scholtes</td>
+                      <td>Zuspiel</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Jannic Federspiel</td>
+                      <td>Außen/Annahme/td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Jérôme Klauck</td>
+                      <td>Mittelblock</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Adam Miracle</td>
+                      <td>Außen/Annahme</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Lukas Kaiser</td>
+                      <td>Mittelblock</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Jan Landen</td>
+                      <td>Libero</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>Tobias Merkel</td>
+                      <td>Diagonal</td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>Tilmann Knödler</td>
+                      <td>Außen/Annahme</td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>Danny Haben</td>
+                      <td>Mittelblock</td>
+                    </tr>
+                    <tr>
+                      <td>18</td>
+                      <td>Markus Jungmann</td>
+                      <td>Außen/Annahme</td>
+                    </tr>
+                    <tr>
+                      <td>24</td>
+                      <td>Sandy Nico Schuhmacher</td>
+                      <td>Libero</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+
+        <!-- Page 3: Tabelle 3.Liga Süd -->
+        <div  data-background="688fdd" class="pt-page pt-page-3">
+          <div class="pt-page-content">
+            <h1><strong>Tabelle</strong> 3. Liga Süd</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Platz</th>
+                    <th>Mannschaft</th>
+                    <th>Spiele</th>
+                    <th>Punkte</th>
+                    <th> Sätze </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>TG Rüsselsheim II</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>15:2</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>TV Waldgirmes</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>9:3</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>TSV Mimmenhausen</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>9:4</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>SSC Karlsruhe</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>9:5</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>TV Bliesen</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>7:6</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>LAF Sinzig</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6:8</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>TV Rottenburg II</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>8:12</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>TuS Kriftel</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>4:9</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>VfB Friedrichshafen II</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>4:11</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>USC Konstanz</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>1:12</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+
+        <!-- Page 4: Spieler Slider -->
+        <div  data-background="688fdd" ng-controller="TeamController" ng-init="getTeam()" class="pt-page pt-page-4">
+          <div class="pt-page-content players-wrapper">
+            <div ng-repeat="player in team | filter: { active: 'true'}" class="player-portfolio">
+              <h1><strong class="ranger-name">{{player.ranger}} RANGER</strong><span class="player-head"> {{player.name}} </span></h1>
+              <div class="row">
+                <div class="col-xs-5 player-image"><img class="img-responsive player-picture" src="data/img/{{player.image}}" /></div>
+                <div class="col-xs 3 player-detail">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                       <td></td>
+                       <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Position:</strong></td>
+                        <td>{{player.position}}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Größe:</strong></td>
+                        <td>{{player.height}}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Alter:</strong></td>
+                        <td>{{player.age}}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Volleyball seit:</strong></td>
+                        <td>{{player.volleyballSince}}</td>
+                      </tr>
+                      <tr ng-show="player.tvrSince != null">
+                        <td><strong>TVR seit:</strong></td>
+                        <td>{{player.tvrSince}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div><!-- .page-content -->
+        </div><!-- .ptpage 4  -->
+
+        <!-- Page 5: Spieler Einzeln  -->
+        <div  data-background="688fdd" class="pt-page pt-page-5">
+          <div class="pt-page-content">
+              <h1><strong>TVR</strong> Herren 2wei 15/16 </h1>
+              <div class="row">
+                <img class="img-responsive" src="data/img/20150915-0007.jpg" />
+              </div>
+          </div>
+        </div>
+
+        <!-- Page 6: Herren 2wei Merchandise -->
+        <div class="pt-page pt-page-6">
+          <div class="pt-page-content">
+            <h1><strong> 2wei gewinnt </strong> Merchandise </h1>
+            <div class="row">
+              <div class="col-xs-4"><img class="img-responsive" src="data/img/muetze-front.jpg" /></div>
+              <div class="col-xs-4"><img class="img-responsive" src="data/img/muetze-rueckseite.jpg" /></div>
+              <div class="col-xs-4"><h3>2wei gewinnt Snapback</h3></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Page -->
+        <div class="pt-page pt-page-7 pt-page-current">
+          <div class="pt-page-content">
+              <h1><strong>Deine Nachricht an die </strong>Jungs</h1>
+              <div class="row">
+                <div class="messages">
+                </div>
+              </div>
+          </div>
+        </div>
+        
+       <!-- Chat Info Page --> 
+       <div class="pt-page pt-page-8">
+          <div class="pt-page-content">
+              <h1><strong>Sende </strong>eine Nachricht an die Rangers! </h1>
+              <ol class="chat-explain-list">
+              <li>Nimm dein Handy, öffne deinen Browser und gehe auf </li>
+              <li><strong>http://bit.do/2wei</strong></li>
+              <li>Schreib eine kreative Nachricht! </li>
+              <ol>
+              <div class="row">
+                <div class="messages">
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <!--- Page 0 - Willkommen -->
+        <div data-background="fd6a62" class="pt-page pt-page-9">
+          <div class="pt-page-content">
+            <h1> Herzlich Willkommen in der <br />Volksbank Arena </h1><br /><br /><br />
+              <h1 style="font-size: 4.5em;"><strong>TVR</strong> Die 2weite &nbsp;&nbsp;&nbsp; vs. &nbsp;&nbsp; <strong>USC</strong> Konstanz</h1>
+              <div class="row">
+               
+              </div>
+          </div>
+        </div>
+
+      <div data-background="fd6a62" class="pt-page pt-page-10">
+
+        <!--<embed type="application/x-vlc-plugin"
+               pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2"  width="100%"
+               height="100%" id="vlc" loop="yes"autoplay="yes" target="http://10.5.5.9:8080/live/amba.m3u8"></embed>-->
+        <!--<video style="width: 100%; height: 100%;" src="http://10.5.5.9:8080/live/amba.m3u8" controls="" autoplay></video>-->
+      </div>
+
+    </div>
+  </div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/flowplayer.min.js"></script>
+  <script src="js/velocity.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script src="js/angular.js"></script>
+  <script src="js/angular-resource.min.js"></script>
+
+  
+    <script src="modules/pages/pages-module.js"></script>
+  <script src="modules/pages/pages-directives.js"></script>
+  
+  <script src="js/angularApp.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io("2weiremote.azurewebsites.net");
+    $('form').submit(function(){
+      socket.emit('chat', $('.message').val());
+      $('.message').val('');
+      return false;
+    });
+
+    socket.on('change-slide', function(folie){
+      console.log("Change Slide: " + folie)
+      view.changeSlide(folie);
+    });
+
+    /*socket.on('players-changed', function(pSelectedPlayers){
+      selectedPlayers = pSelectedPlayers;
+      view.updatePlayerTable();
+    });*/
+
+    socket.on('chat-message', function(message){
+      messages.newMessage(message);
+    });
+
+    socket.on("connection-successful", function(){
+      console.log("Verbindung mit Socket.io erfolgreich!");
+    });
+  </script>
+</body>
+
+</html>

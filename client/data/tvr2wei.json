@@ -1,0 +1,161 @@
+{
+    "spieler": [
+        {
+            "name": "Paul Kaltenmark",
+            "position": "Annahme/Außen",
+            "height": "1,90m",
+            "age": "17",
+            "number": 5,
+            "ranger": "Alpha",
+            "volleyballSince": "2008",
+            "tvrSince": "2008",
+            "image": "Paul.JPG",
+            "active": "false"
+        },
+        {
+            "name": "Julien Wizemann",
+            "position": "Annahme/Außen",
+            "height": "1,75m",
+            "age": "28",
+            "ranger": "Klugscheisser",
+            "number": 9,
+            "volleyballSince": "2008",
+            "tvrSince": "2008",
+            "image": "Julian.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Nils Gerbig",
+            "position": "Annahme/Außen",
+            "height": "1,80m",
+            "age": "24",
+            "ranger": "Black",
+            "number": 10,
+            "volleyballSince": "2008",
+            "image": "Nils.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Patrick Pfeffer",
+            "position": "Mittelblock",
+            "height": "1,96m",
+            "age": "21",
+            "ranger": "Abii",
+            "number": 12,
+            "volleyballSince": "2008",
+            "image": "Paddy.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Florian Haas",
+            "position": "Diagonal",
+            "height": "2,00m",
+            "age": "27",
+            "ranger": "Flo",
+            "number": 13,
+            "volleyballSince": "2008",
+            "image": "Flo.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Oliver Knobelspieß",
+            "position": "Zuspiel",
+            "height": "1,90m",
+            "age": "23",
+            "ranger": "Buhmann",
+            "number": 14,
+            "volleyballSince": "2008",
+            "image": "Oli.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Moritz Frölich",
+            "position": "Annahme/Außen",
+            "height": "1,89m",
+            "age": "20",
+            "ranger": "Shuffle",
+            "number": 15,
+            "volleyballSince": "2005",
+            "tvrSince": "2010",
+            "image": "Mo.JPG",
+            "active": "true"
+        },
+        {
+            "name": "André Kette",
+            "position": "Mittelblock",
+            "height": "1,92m",
+            "age": "28",
+            "ranger": "Pony",
+            "number": 17,
+            "volleyballSince": "2008",
+            "image": "Andre.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Timo Baur",
+            "position": "Libero",
+            "height": "1,75m",
+            "age": "22",
+            "ranger": "Stümple",
+            "number": 18,
+            "volleyballSince": "2008",
+            "image": "Timo.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Niklas Isaak",
+            "position": "Mittelblock",
+            "height": "1,92m",
+            "age": "23",
+            "ranger": "Splitter",
+            "number": 8,
+            "volleyballSince": "2008",
+            "image": "Nik.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Peter Koch",
+            "position": "Außenangriff",
+            "height": "1,90m",
+            "age": "23",
+            "ranger": "Poser",
+            "number": 1,
+            "volleyballSince": "2008",
+            "image": "Peter.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Barbara Vollmer",
+            "position": "Coach",
+            "height": "1,60m",
+            "age": "23",
+            "ranger": "Hit",
+            "number": "C",
+            "volleyballSince": "1995",
+            "image": "Barber.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Jonas Kuhn",
+            "position": "Zuspiel",
+            "height": "1,89m",
+            "age": "17",
+            "ranger": "Baby",
+            "number": 2,
+            "volleyballSince": "2008",
+            "image": "Jonas.JPG",
+            "active": "true"
+        },
+        {
+            "name": "Marius Hauser",
+            "position": "Diagonal",
+            "height": "1,95m",
+            "age": "17",
+            "ranger": "Freestyle",
+            "number": 18,
+            "volleyballSince": "2008",
+            "image": "Marius.JPG",
+            "active": "true"
+        }
+    ]
+}
